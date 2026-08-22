@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+
+# EEG processing
+mne>=1.6
+PyWavelets>=1.5
+
+# Machine learning
+scikit-learn>=1.4
+torch>=2.1
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# Notebook environment
+jupyter>=1.0
+ipykernel>=6.29

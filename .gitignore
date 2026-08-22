@@ -1,0 +1,46 @@
+# --- Dataset files (large, download separately per README) ---
+*.gdf
+*.edf
+*.bdf
+*.fif
+*.set
+*.mat
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Environment / secrets ---
+.env
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Model checkpoints / large artifacts (regenerate via notebook) ---
+*.pt
+*.pth
+*.ckpt
+
+# --- Logs ---
+*.log

@@ -70,6 +70,13 @@ The model reaches **77.6% accuracy** on the held-out test set, more than 3x the
 other — expected, since both involve lower-limb/orofacial motor cortex regions
 that sit closer together on the scalp than the hand areas do.
  
+<p align="center">
+  <img src="figures/confusion_matrix.png" width="600" alt="Confusion matrix of test-set predictions"><br>
+  <sub><b>Confusion Matrix.</b> Test-set predictions vs. true labels — 77.6% overall accuracy across 4 balanced classes.</sub>
+</p>
+
+<br>
+
 
 <p align="center">
   <img src="figures/training_curves.png" width="700" alt="MLP training and validation loss/accuracy curves"><br>

@@ -10,7 +10,6 @@ A hybrid EEG motor imagery classification pipeline that combines Wavelet Packet 
 
 ## 📌 Overview
 
-
 Motor imagery BCIs classify which movement a person is *imagining* purely from
 their EEG, with no actual movement involved — a hard, noisy, low-SNR problem. This
 project builds a classical-but-rigorous signal-processing pipeline that fuses
@@ -21,7 +20,7 @@ GPU-hungry deep learning.
 
 | Task | Dataset | Test Accuracy | Macro F1 |
 |---|---|---|---|
-| 4-class MI (Left/Right/Feet/Tongue) | BCI IV-2a, A01T (22 EEG + 3 EOG, 250 Hz) | **77.6%** (chance = 25%) | **0.77** |
+| 4-class MI (Left/Right/Feet/Tongue) | BCI IV-2a, A01T (22 EEG + 3 EOG, 250 Hz) | **77.6%** | **0.77** |
 
 > 💡 **Note:** WPD and CSP are not treated as competing choices here — WPD acts as
 > a data-driven filter bank, and a separate CSP spatial filter is fit **per

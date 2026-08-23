@@ -10,6 +10,7 @@ A hybrid EEG motor imagery classification pipeline that combines Wavelet Packet 
 
 ## 📌 Overview
 
+
 Motor imagery BCIs classify which movement a person is *imagining* purely from
 their EEG, with no actual movement involved — a hard, noisy, low-SNR problem. This
 project builds a classical-but-rigorous signal-processing pipeline that fuses

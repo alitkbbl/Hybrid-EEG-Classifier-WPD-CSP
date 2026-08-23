@@ -6,7 +6,6 @@
 [![MLP Classifier](https://img.shields.io/badge/MLP-PyTorch%20Model-FF6F00)](#)
 [![4-Class Classification](https://img.shields.io/badge/4--Class%20MI-Left%20%2F%20Right%20%2F%20Feet%20%2F%20Tongue-D32F2F)](#)
 
-
 A hybrid EEG motor imagery classification pipeline that combines Wavelet Packet Decomposition, Filter-Bank Common Spatial Patterns, and a PyTorch MLP.  
 
 ## 📌 Overview
@@ -97,6 +96,8 @@ that sit closer together on the scalp than the hand areas do.
   <sub><b>WPD Energy Features.</b> Mean wavelet-packet energy at the sensorimotor ROI (C3, C1, Cz, C2, C4) by sub-band and class — visible separation confirms these hand-crafted features carry discriminative signal.</sub>
 </p>
 
+> 💡 Note: These results were obtained exclusively on the BCI Competition IV-2a A01T recording and may not generalize to other subjects, sessions, or datasets.
+
 ---
 
 ## 🚀 Installation & Usage
@@ -118,7 +119,6 @@ Download A01T.gdf from the BCI Competition IV-2a page (see Dataset section)
 ```bash
 jupyter notebook Hybrid-EEG-Classifier-WPD-CSP.ipynb
 ```
-
 
 ---
 

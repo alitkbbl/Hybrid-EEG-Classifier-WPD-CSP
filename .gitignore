@@ -41,6 +41,11 @@ Thumbs.db
 *.pt
 *.pth
 *.ckpt
+*.joblib
+*.npz
+*.json
 
 # --- Logs ---
 *.log
+
+cache/

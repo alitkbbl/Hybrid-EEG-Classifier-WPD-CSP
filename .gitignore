@@ -45,6 +45,7 @@ Thumbs.db
 *.npz
 *.json
 
+
 # --- Logs ---
 *.log
 
